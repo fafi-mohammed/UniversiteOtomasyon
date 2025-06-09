@@ -4,7 +4,7 @@
    Bu proje, üniversite düzeyinde öğrenci, öğretim üyesi, ders ve not takibini dijital ortamda sağlamak amacıyla geliştirilmiştir. WinForms tabanlı arayüz ve SQL Server    veritabanı kullanılarak öğretim elemanlarının öğrenci bilgilerini, dersleri ve notları sistemde  işlemelerini sağlar.
 
 
-(-)Kullanılan Teknolojiler
+(-) Kullanılan Teknolojiler
    - Programlama Dili: C# (.NET Framework)
    - Arayüz: Windows Forms (WinForms)
    - Veritabanı: SQL Server Express 
@@ -27,6 +27,7 @@
         
 
  (-) Formlar ve İşlevleri
+ 
        -> AnaForm
           - Buttonlar kullanarak  diger sayfalara yonlendirir.
  

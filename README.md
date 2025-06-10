@@ -32,10 +32,10 @@
  (-) Formlar ve İşlevleri
  
        -> AnaForm
-          - Buttonlar kullanarak  diger sayfalara yonlendirir.
+          - Buttonlar kullanarak  diger sayfalara yönlendirir.
  
       -> OgrenciForm
-          - Öğrenci ekleme, güncelleme ve listeleme işlemleri yapılır.
+          - Öğrenci ekleme ve  güncelleme işlemleri yapılır.
           - Kullanılan alanlar: OgrenciID, AdSoyad, Bolum, Sinif
           
       -> OgretimUyesiForm

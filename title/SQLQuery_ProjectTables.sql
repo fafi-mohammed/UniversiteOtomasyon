@@ -1,4 +1,11 @@
 
+CREATE TABLE Ogrenci (
+    OgrenciID INT PRIMARY KEY,
+    AdSoyad NVARCHAR(100) NOT NULL,
+    Bolum NVARCHAR(100),
+    Sinif INT
+);
+
 
 CREATE TABLE OgretimUyesi (
     OgretimUyesiID INT PRIMARY KEY,
@@ -28,8 +35,7 @@ CREATE TABLE NotGiris (
     FOREIGN KEY (DersID) REFERENCES Ders(DersID)
 );
 
-ALTER TABLE NotGiris
-DROP CONSTRAINT FK_NotGiris_OgrenciID; 
+
 
 
 
